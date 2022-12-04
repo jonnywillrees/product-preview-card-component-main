@@ -133,10 +133,10 @@ body {
     background-color: var(--clr-neutral-100);
     border-radius: .5rem;
     overflow: hidden;
-    max-width: 580px;
+    max-width: 600px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 625px) {
     .product {
         --content-padding: 2rem;
         grid-template-columns: 1fr 1fr;
@@ -145,6 +145,7 @@ body {
 
 .product__content {
     display: grid;
+    align-items: center;
     gap: var(--content-spacing);
     padding: var(--content-padding);
 }
