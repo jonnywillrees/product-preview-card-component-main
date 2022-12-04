@@ -133,7 +133,7 @@ body {
     background-color: var(--clr-neutral-100);
     border-radius: .5rem;
     overflow: hidden;
-    /* max-width: 580px; */
+    max-width: 580px;
 }
 
 @media (min-width: 600px) {
